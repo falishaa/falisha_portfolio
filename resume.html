@@ -1,1 +1,227 @@
 <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Resume</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Falisha Quayum's Resume</h1>
+
+        <img src="images/profile.png" alt="Profile Picture" width = "180" style="border-radius:10px;">
+
+        <h2>Cybersecurity Specialist & Aspiring Software Developer</h2>
+
+        <h3>United States Space Force</h3>
+
+    </header>
+
+
+
+    <nav>
+
+        <ul>
+
+            <li><a href="resume.html">Résumé</a></li>
+
+            <li><a href="cover-letter.html">Cover Letter</a></li>
+
+            <li><a href="career-goals.html">Career Goals</a></li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <main>
+
+        <section>
+
+            <article>
+
+                <h2>About Me</h2>
+
+                <p>
+
+                    Dedicated <strong>defensive cyber operations specialist</strong> with experience in network defense,
+
+                    secure system administration, and <em>modern web technologies</em>. I am passionate about
+
+                    building secure, user‑friendly digital solutions.
+
+                </p>
+
+
+
+                <h2>My Favorite Study Song</h2>
+
+                <audio controls>
+
+                    <source src="media/favorite-song.mp3" type="audio/mpeg">
+
+                </audio>
+
+            </article>
+
+
+
+            <hr />
+
+
+
+            <article>
+
+                <h2>Skills</h2>
+
+                <ul>
+
+                    <li>HTML, CSS, JavaScript</li>
+
+                    <li>Python, Java, C/C++</li>
+
+                    <li>Cybersecurity Fundamentals</li>
+
+                    <li>Leadership & Training</li>
+
+                </ul>
+
+            </article>
+
+
+
+            <hr />
+
+
+
+            <article>
+
+                <h2>Experience</h2>
+
+                <p><strong>United States Space Force</strong> — Cyber Operations (Active Duty)</p>
+
+                <p>January 2024-Present</p>
+
+                <p>
+
+                    • Performed system monitoring and analysis.<br />
+
+                    • Supported mission‑critical cyber defense operations.<br />
+
+                    • Collaborated within a high‑security environment to maintain system integrity.
+
+                </p>
+
+            </article>
+
+
+
+            <hr />
+
+
+
+            <article>
+
+                <h2>Education</h2>
+
+                <table>
+
+                    <caption>Academic Background</caption>
+
+                    <tr>
+
+                        <th>Institution</th>
+
+                        <th>Degree</th>
+
+                        <th>Field</th>
+
+                        <th>Year</th>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Western Governors University</td>
+
+                        <td>B.S.</td>
+
+                        <td>Computer Science</td>
+
+                        <td>In Progress</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Kingston High School</td>
+
+                        <td>Advanced Regents Diploma</td>
+
+                        <td></td>
+
+                        <td>2022</td>
+
+                    </tr>
+
+                </table>
+
+            </article>
+
+
+
+            <hr />
+
+
+
+            <div id="currentDate"></div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+        <p>© 2025 Falisha Q</p>
+
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn Profile</a>
+
+    </footer>
+
+
+
+    <script>
+
+        // Populate date inside the date div
+
+        const dateDiv = document.getElementById("currentDate");
+
+        const today = new Date();
+
+        dateDiv.textContent = "Current Date: " + today.toDateString();
+
+
+
+        // Write to console
+
+        console.log("Resume page loaded successfully.");
+
+    </script>
+
+</body>
+
+</html>
